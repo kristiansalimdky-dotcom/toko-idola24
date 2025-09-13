@@ -1,0 +1,55 @@
+
+/* style.css */
+/* RESET */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; }
+a { text-decoration: none; }
+
+/* Header / Hero */
+header { color: #fff; text-align: center; padding: 120px 20px; position: relative; }
+header h1 { font-size: 2.5rem; margin-bottom: 20px; }
+header p { font-size: 1.2rem; margin-bottom: 30px; }
+.cta-btn { background: #ff6b6b; color: #fff; padding: 15px 30px; font-size: 1.1rem; border-radius: 8px; cursor: pointer; display: inline-block; }
+
+/* Swiper Hero */
+.hero-swiper { width: 100%; height: 500px; }
+.hero-swiper .swiper-slide { background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center; }
+
+/* Keunggulan / Benefit */
+.benefits { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; padding: 60px 20px; background: #f9f9f9; text-align: center; }
+.benefit { width: 220px; }
+.benefit span { font-size: 2rem; display: block; margin-bottom: 15px; }
+
+/* Flash Sale */
+.flash-sale { padding: 60px 20px; text-align: center; }
+.flash-sale h2 { font-size: 2rem; margin-bottom: 30px; }
+.product-card { border: 1px solid #ddd; border-radius: 10px; padding: 15px; text-align: center; }
+.product-card img { width: 100%; border-radius: 8px; margin-bottom: 10px; }
+.buy-btn { background: #ff6b6b; color: #fff; padding: 10px 20px; border-radius: 6px; display: inline-block; margin-top: 10px; }
+
+.flash-sale-swiper .swiper-slide { width: 250px; }
+
+/* Produk Populer */
+.popular { padding: 60px 20px; text-align: center; }
+.popular h2 { font-size: 2rem; margin-bottom: 30px; }
+.popular-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+.popular-card { width: 220px; border: 1px solid #ddd; border-radius: 10px; padding: 15px; text-align: center; }
+.popular-card img { width: 100%; border-radius: 8px; margin-bottom: 10px; }
+
+/* Testimoni */
+.testimoni { background: #f9f9f9; padding: 60px 20px; text-align: center; }
+.testimoni h2 { font-size: 2rem; margin-bottom: 30px; }
+.testimoni-card { padding: 20px; border-radius: 10px; background: #fff; text-align: center; }
+
+/* CTA Akhir */
+.cta-final { background: #ff6b6b; color: #fff; text-align: center; padding: 80px 20px; }
+.cta-final a { background: #fff; color: #ff6b6b; padding: 20px 40px; font-size: 1.2rem; border-radius: 10px; font-weight: bold; }
+
+/* Footer */
+footer { background: #333; color: #fff; text-align: center; padding: 40px 20px; }
+footer a { color: #fff; margin: 0 10px; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .benefits, .popular-grid { flex-direction: column; align-items: center; }
+}
